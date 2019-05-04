@@ -3,7 +3,7 @@ function forLoop(array) {
     if (i === 1) {
       array.push("I am 1 strange loop.")
     } else {
-      array.push("I am ${'i'} strange loops.")
+      array.push("I am ${i} strange loops.")
     }
   }
   return array;
@@ -13,7 +13,7 @@ function forLoop(array) {
 function whileLoop(number) {
   let countdown = number;
 
-  while (countdown > 0) {
+  while (countdown >= 0) {
   console.log(--countdown);
 }
   console.log('done');
