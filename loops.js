@@ -17,7 +17,7 @@ function whileLoop(number) {
     console.log(countdown);
     countdown--;
 }
-  console.log("done");
+  console.log('done');
 }
 
 var i = 0
